@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IES Mar de Cádiz - Covid</title>
+
+    <link rel="icon" href="./imagenes/Logotipo.png" />
+
+    <link
+    href="./bootstrap-5.1.3-examples/assets/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+    <link rel="stylesheet" href="./css/covid.css">
+  </head>
+  <body>
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li class="navbar-brand">IES Mar de Cádiz, medidas covid-19</li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input
+              type="search"
+              class="form-control form-control-dark"
+              placeholder="Buscar..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="text-end">
+            <a href="./Sesion.html">
+              <button type="button" class="btn btn-outline-light me-2">
+                Iniciar sesión
+              </button></a
+            >
+            <a href="./Login.html">
+              <button type="button" class="btn btn-warning">
+                Regístrese
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!--CABECERA. HECHA CON BOOTSTRAP-->
+      <nav
+        class="navbar navbar-expand-xl navbar-dark bg-dark"
+        aria-label="Sixth navbar example"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample06"
+            aria-controls="navbarsExample06"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample06">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./News.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Covid.html">Medidas COVID-19</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdown06"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Más</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="dropdown06">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="http://iesmardecadiz.esy.es/biblioteca/index.html" onclick="salir()"
+                      >Biblioteca</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://educacionadistancia.juntadeandalucia.es/centros/login/" onclick="salir()"
+                      >Moodle</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="./Galeria.html" onclick="salir()"
+                      >Galería del centro</a
+                    >
+                  </li>
+
+                  <li>
+                    <a class="dropdown-item" href="http://www.ies-mardecadiz.com/portalempleo/index.php" onclick="salir()">
+                      Portal de empleo
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1>Medidas Covid 19</h1>
+
+    <video loop autoplay muted>
+      <source src="./video/Protocolos Covid-19 para el profesorado.mp4" type="video/mp4" />
+    </video>
+
+    <section id="normas">
+      <h1>Normas Vigentes COVID-19</h1>
+
+      <article>
+
+        <div>
+            <img src="https://www.cdc.gov/coronavirus/2019-ncov/images/community/schools-childcare/school-ventilation-students-teachers.png?_=50772" alt="Medidas prevención COVID 19">
+            <a href="">Ir a horarios COVID</a>
+        </div>
+      
+        <div>
+          <img src="https://ibero.mx/sites/default/files/styles/noticias__713x400_/public/prensaymultimedios/classroom-5592865_1280.png?itok=1kaqX8XS" alt="Medidas prevención COVID 19">
+          <a href="">Ir a horarios COVID</a>
+        </div>
+      
+        <div>
+          <img src="https://colegiobeatocmr.files.wordpress.com/2022/01/maestros-estudiantes-mascarilla-clase_52683-46993.jpg" alt="Medidas prevención COVID 19">
+          <a href="">Ir a horarios COVID</a>
+        </div>
+      </article>
+    </section>
+
+
+    <section id="mascarillas">
+
+      <article class="uno">
+        <h3>Mascarillas</h3>
+
+        <p>El uso de mascarillas en clase es totalmente obligatorio.
+           La mascarilla es
+           eficaz para prevenir el riesgo de contagio en clase, 
+           asegurando que sea un lugar seguro. En nuestro centros
+           nos preocupamos por las salud de todos los alumnos y profesores.
+        </p>
+      </article>
+
+      <article class="dos">
+        <h3>Distancia social</h3>
+
+        <p>Distancia social de dos metros mínimo en clase será totalmente 
+        obligatoria para garantizar el riesgo de contagio 
+        Además, el patio estará dividido en secciones para los diversos cursos, lugares que serán proporcionados por el profesor al inicio del curso.
+        Todo alumno mayor que 18 años será libre de salir al exterior del centro en los recreos.      
+        </p>
+      </article>
+
+      <article class="tres">
+        <h3>Aire fresco</h3>
+
+        <p>Aulas abiertas para que el aire fluya sin ningún impedimento, 
+        proporcionando así que la clase se airee para que el riesgo de contagio se reduzca. Si un alumno ve una ventana cerrada,
+        la abrirá para evitar la entrada y salida del aire.</p>
+      </article>
+    </section>
+
+    <script src="./js/Protitipo.js"></script>
+    <script src="./bootstrap-5.1.3-examples/assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

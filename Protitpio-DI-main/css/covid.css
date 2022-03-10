@@ -1,0 +1,120 @@
+h1 {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: cursive;
+}
+
+video {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  z-index: -100;
+  display: block;
+  height: auto;
+}
+
+#normas {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+#normas article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  height: auto;
+}
+
+#normas article div {
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+}
+
+#normas article div img {
+  width: 80%;
+  height: 80%;
+}
+
+#mascarillas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#mascarillas .uno {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+}
+
+#mascarillas .uno h3 {
+  text-align: center;
+}
+
+#mascarillas .uno p {
+  text-align: justify;
+  padding: 10px;
+}
+
+#mascarillas .dos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+}
+
+#mascarillas .dos h3 {
+  text-align: center;
+}
+
+#mascarillas .dos p {
+  text-align: justify;
+  padding: 10px;
+}
+
+#mascarillas .tres {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+}
+
+#mascarillas .tres h3 {
+  text-align: center;
+}
+
+#mascarillas .tres p {
+  text-align: justify;
+  padding: 10px;
+}
+/*# sourceMappingURL=covid.css.map */

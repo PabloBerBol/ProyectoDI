@@ -1,0 +1,55 @@
+img{
+
+    height: 300px;
+    width: 500px;
+}
+
+#gris{
+
+    filter: grayscale(100%);
+}
+
+#enfoque{
+
+    filter: blur(3px);
+}
+
+#sepia{
+
+    filter: sepia(100%);
+}
+
+#satura{
+
+    filter: saturate(400%);
+}
+
+#opcaca{
+
+    filter: opacity(25%);
+}
+
+#brillo{
+
+    filter: brightness(150%);
+}
+
+#contraste{
+
+    filter: contrast(200%);
+}
+
+#rotar{
+
+    filter: hue-rotate(90deg);
+}
+
+#negativo{
+
+    filter: invert(100%)
+}
+
+#sombra{
+
+    filter: drop-shadow(2px 2px 5px #255);
+}

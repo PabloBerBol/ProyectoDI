@@ -1,0 +1,113 @@
+h1{
+
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+video {
+
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: -100;
+    display: block;
+    height: auto;
+}
+
+#normas{
+
+    align-items: center;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 30px;
+
+    article{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: auto;
+        
+        div{
+
+            padding: 10px;
+            align-items: center;
+            width: 33%;
+
+            img{
+
+                width: 80%;
+                height: 80%;
+            }
+        }
+    }
+}
+
+
+#mascarillas{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+
+    .uno{
+
+        align-items: center;
+        width: 33%;
+
+
+        h3{
+
+            text-align: center;
+        }
+
+        p{
+
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+
+    .dos{
+
+        align-items: center;
+        width: 33%;
+
+
+        h3{
+
+            text-align: center;
+        }
+
+        p{
+
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+
+    .tres{
+
+        align-items: center;
+        width: 33%;
+
+        h3{
+
+            text-align: center;
+        }
+
+        p{
+
+            text-align: justify;
+            padding: 10px;
+        }
+    }
+}
+
